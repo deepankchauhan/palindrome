@@ -17,6 +17,7 @@ int main()
   {
     if (text[begin] != text[end])
     {
+      // prints if the string is not palindrome
       printf("Not a palindrome.\n");
       break;
     }
