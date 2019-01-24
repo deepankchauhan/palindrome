@@ -24,6 +24,7 @@ int main()
     end--;
   }
   if (begin == middle)
+    // prints if the string is palindrome
     printf("Palindrome.\n");
  
   return 0;
