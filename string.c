@@ -1,4 +1,4 @@
-// this program checks the string if it's palindrome or not.
+// this program checks the string if it's palindrome or not using functions present in the string header file.
 #include <stdio.h>
 #include <string.h>
 
