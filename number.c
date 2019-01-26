@@ -1,3 +1,4 @@
+// checks for the integer number if it's a palindrome or not.
 #include<stdio.h>
 
 int main(void)
@@ -16,9 +17,11 @@ int main(void)
   
   if (reversed_number == original_number)
   {
+    // prints if the number is palindrome.
     printf("This number is palindrome\n");
   }
   else
+    // prints if the number is not palindrome.
     printf("This number is not palindrome\n");
   return 0;
 }
