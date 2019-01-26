@@ -12,8 +12,10 @@ int main(void)
   strrev(b);
   
   if (strcmp(a,b) == 0)
-    printf("palindrome\n");
+   // prints if the string is palindrome. 
+   printf("palindrome\n");
   else
+    // prints if the string is not palindrome.
     printf("not palindrome\n");
   return 0;
 }
