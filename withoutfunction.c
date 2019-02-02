@@ -6,6 +6,7 @@ int main()
   char text[100];
   int begin, middle, end, length = 0;
  
+  // take a string as an output.
   gets(text);
  
   while (text[length] != '\0')
